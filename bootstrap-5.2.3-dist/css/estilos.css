@@ -2,7 +2,7 @@ body{
     background-color: teal;
 }
 /* Primer contenedor */
-.container1{
+/* .container1{
     display: flex;
     height: 150px;
     justify-content: space-evenly;
@@ -23,7 +23,7 @@ body{
     align-items: center;
 }
 /* Segundo contenedor */
-.container2{
+/* .container2{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(167, 126, 37);
@@ -34,9 +34,9 @@ body{
     background-color: aliceblue;
     padding: 10px;
     align-self: self-end;
-}
+} */
 /* Tercer contenedor */
-.container3{
+/* .container3{
     display: flex;
     justify-content: space-around;
     background-color: rgb(167, 126, 37);
@@ -45,5 +45,41 @@ body{
 .item3{
     background-color: aliceblue;
     padding: 20px;
+} */
+/* Navegador superior de la pagina */
+/* Contenedor izquierdo */
+.contendor1{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 5px;
+    margin-top: 10px;
 }
-
+.sub_contenedor1{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2px;
+    padding: 2px;
+}
+.sub_item1{
+    padding: 5px;
+    width: 10px;
+    background-color: aliceblue;
+}
+/* Contenedor derecho */
+.sub_contenedor2{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2px;
+    padding: 2px;
+}
+.sub_item2{
+    padding: 5px;
+    width: 10px;
+    background-color: aliceblue;
+}
